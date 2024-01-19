@@ -1,11 +1,14 @@
 <script setup lang="ts">
-
+const { data } = await useFetch("/api/hello");
+console.log("data", data);
 </script>
 
-<template>
+<template></template>
 
-</template>
 
-<style scoped>
 
-</style>
+
+
+
+<style scoped></style>
+

@@ -1,6 +1,6 @@
 <template>
   <div class="header">
-    <span class="icon" />
+    <span class="icon"/>
     <h1 class="text">Chicken Music</h1>
   </div>
 </template>
@@ -8,7 +8,8 @@
 <script>
 export default {
   name: "Header",
-  data() {},
+  data() {
+  },
 };
 </script>
 
@@ -19,6 +20,7 @@ export default {
   justify-content: center;
   align-items: center;
   color: var(--m-color-theme);
+
   .icon {
     display: inline-block;
     width: 30px;
@@ -28,6 +30,7 @@ export default {
     background-size: contain;
     margin-right: var(--m-space-1);
   }
+
   .text {
     font-size: var(--m-font-size-large);
   }
